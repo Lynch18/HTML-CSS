@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta name="google-signin-client_id" content="490986521215-tlbf6t4926ql3hsb9a97p1vrsdam7h17.apps.googleusercontent.com">
+  <meta property="og:title" content="Skolas projekts" />
+<!--<meta property="og:url" content="" />-->
+<meta property="og:image" content="https://d3h2k7ug3o5pb3.cloudfront.net/idoc/image/2020-10-27/009f4f41-1821-11eb-a688-0326dab191e7.png" />
+<meta property="og:description" content="All-in-one product design platform for prototyping, collaboration, and creating design systems." />
+    <title>Log in</title>
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'/>
+    <link rel="stylesheet" href="/css/icon/iconfont.css?v=70">
+    <link rel="stylesheet" href="/css/enUS/account.css?v=70">
+    <script src="/js/jquery.min.js"></script>
+   
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65309978-3" async defer></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-65309978-3');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PSTHP97');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="account-container">
+  <img src="/enUS/sign-logo2.png" alt="">
+</a>
+<!-- <div class="left-pic-container">
+  <div class="left-pic-content">
+      <div class="dt small-logo">
+          <div class="cons">
+              <img src="/images/logo/dt.png" alt="" class="logos">
+              <img src="/images/logo/s1.png" alt="" class="shadow1">
+          </div>
+      </div>
+      <div class="ds small-logo">
+          <div class="cons">
+              <img src="/images/logo/ds.png" alt="" class="logos">
+              <img src="/images/logo/s1.png" alt="" class="shadow1">
+          </div>
+      </div>
+      <div class="cc small-logo">
+          <div class="cons">
+              <img src="/images/logo/cc.png" alt="" class="logos">
+              <img src="/images/logo/s1.png" alt="" class="shadow1">
+          </div>
+      </div>
+      <div class="rp small-logo">
+          <div class="cons">
+              <img src="/images/logo/rp.png" alt="" class="logos">
+              <img src="/images/logo/s1.png" alt="" class="shadow1">
+          </div>
+      </div>
+      <div class="cube1">
+          <div class="cons">
+              <img src="/images/logo/cube1.png" alt="" class="cubes">
+              <img src="/images/logo/s2.png" alt="" class="shadow2">
+          </div>
+      </div>
+      <div class="cube2">
+          <div class="cons">
+              <img src="/images/logo/cube2.png" alt="" class="cubes">
+              <img src="/images/logo/s3.png" alt="" class="shadow3">
+          </div>
+      </div>
+  </div>
+</div> -->
+<div class="left-text-container">
+    <p>A virtual center for designers, devs, PMs, and all design parties to perform their duties in unison. At least 200% faster with Mockplus.</p>
+</div>
+<div class="left-bottom-container">
+    <p>© 2014-2022 deivids Technology Co., Ltd. All rights reserved.</p>
+    <div class="other">
+        <
+    </div>
+</div>
+
+  <div class="right-container">
+      <div class="sign-list" id="sign-in" style="display: block">
+          <h1>Sign in to Mockplus</h1>
+          <div class="input-list">
+              <div class="input-list-con first-init" style="display: block">
+                  <div class="list">
+                      <input
+                          type="text"
+                          class="input-text the-signin-account"
+                          placeholder="Email"
+                          data-errortext="Please enter a valid email address."
+                          data-type="account"
+                          oninput="onInputChange(this)"
+                          onpropertychange="onInputChange(this)"
+                          data-index="0"
+                          autocomplete="on"
+                      >
+                  </div>
+                  <div class="list">
+                      <input
+                          type="password"
+                          class="input-text the-signin-password"
+                          placeholder="Password"
+                          data-errortext="The password must be between 6-20 characters long."
+                          data-type="password"
+                          oninput="onInputChange(this)"
+                          onpropertychange="onInputChange(this)"
+                          data-index="1"
+                          id="signin-password"
+                          autocomplete="on"
+                      >
+                      <a href="/forgotpassword?next=https%3A%2F%2F%2Fblog%2Fpost%2Flogin-page-examples&source=web-rp&plugin_code=" class="right-text clickable" id="forget-password">Forgot password</a>
+                  </div>
+                  <div class="submit">
+                    <div class="error-text-container">
+                      <div class="error-text"></div>
+                    </div>
+                    <div class="button disabled" id="normal-login">Sign in</div>
+                  </div>
+              </div>
+          </div>
+          <div class="other-text">Don't have an account?&nbsp;<a href="/signup?next=https%3A%2F%2Fwww.mockplus.com%2Fblog%2Fpost%2Flogin-page-examples&source=web-rp&plugin_code=" class="red">Sign up</a></div>
+          <div class="other-sign-type">
+              <div class="left"><span>Or sign in with</span></div>
+              <div class="right">
+                  <a 
+href="javascript:void(0);" 
+title="Google" 
+class="icon" 
+style="background-image: url('/images/sign-google.png')" 
+id="googleButton"
+data-client_id="490986521215-tlbf6t4926ql3hsb9a97p1vrsdam7h17.apps.googleusercontent.com"
+data-login_uri="https://user.mockplus.com/signup"
+></a>
+
+    
+        // Scopes to request in addition to 'profile' and 'email'
+        scope: 'email profile',
+        fetch_basic_profile: false
+      });
+    });
+  }
+
+  $('#googleButton').click(function() {
+    var auth2 = gapi.auth2.getAuthInstance();      
+    if (typeof auth2 !== 'undefined') {
+      auth2.signIn().then(function(authResult) {
+        var profile = auth2.currentUser.get().getBasicProfile();
+        var googleEmail = profile.getEmail();
+        var data = {
+          code: '2021-05-22 new function signin',
+          email: googleEmail,
+          next: next,
+          source: source,
+          plugin_code: plugin_code,
+        };
+        googleLogin(data);   
+      });     
+      // auth2.grantOfflineAccess().then(signInCallback); // 这个是配合signInCallback方法使用，但存在用户信息没有立即更新，所以更换了方法。
+    } else {
+      showReloadMessage('Please check your network settings and ', 'try again.', window.location.href);
+    }
+  });
+
+  function signInCallback(authResult) {
+    if (authResult['code']) {
+      if (auth2.isSignedIn.get()) {
+        var profile = auth2.currentUser.get().getBasicProfile();
+        var googleEmail = profile.getEmail();
+        // console.log('ID: ' + profile.getId());
+        // console.log('Full Name: ' + profile.getName());
+        // console.log('Given Name: ' + profile.getGivenName());
+        // console.log('Family Name: ' + profile.getFamilyName());
+        // console.log('Image URL: ' + profile.getImageUrl());
+        // console.log('Email: ' + profile.getEmail());
+      }
+      var data = {
+        code: authResult['code'],
+        email: googleEmail,
+        next: next,
+        source: source,
+        plugin_code: plugin_code,
+      };
+      googleLogin(data);
+    } else {
+      showReloadMessage('Please check your network settings and ', 'try again.', window.location.href);
+    }
+  }
+
+  function googleLogin (data) {
+    showLoading();
+    $.post('/google-login', data, function (res) {
+      hideLoading();
+      if (res.code === 0) {
+        window.location.href = res.payload.nextURL;
+        return;
+      }
+      showMessage(res.message);
+    });
+  }
+
+ </script>
+
+</div>
+<script src="/js/public.js?v=70"></script>
+<script src="/js/enUS/account.js?v=70"></script>
+<script>
+  var source = 'web-rp';
+  var plugin_code = '';
+  var $errorMessage = $('.error-message');
+  var $normalLogin = $('#normal-login'); //
+
+  $(function () {
+    setInputFocusInit($normalLogin);
+
+    
+    $normalLogin.click(function () {
+      var $this = $(this);
+      if ($(this).hasClass('disabled')) {
+        return;
+      }
+      var inputList = $this.parents('.input-list-con').find('input');
+      var $account;
+      var $password;
+
+      for (var item of inputList) {
+        if ($(item).data('type') === 'account') {
+          $account = $(item);
+        }
+        if ($(item).data('type') === 'password') {
+          $password = $(item);
+        }
+      }
+
+      if (!onInputChange($account, 'addError') || !onInputChange($password, 'addError')) {
+        return;
+      }
+
+      showLoading();
+      $this.addClass('disabled');
+      $.ajax({
+        url: '/signin',
+        type: 'POST',
+        dataType: 'json',
+        headers: { 'x-mockplus-txmeet': isInWeMeet() ? 'true' : 'false' },
+        data: {
+          account: $account.val().trim(),
+          password: $password.val().trim(),
+          next: next,
+          source: source,
+          plugin_code: plugin_code
+        },
+        success: function (res) {
+          hideLoading();
+          $this.removeClass('disabled');
+          if (res.code === 0) {
+            window.location.href = res.payload.nextURL;
+            return;
+          }
+          $('.error-text').text(res.message);
+        }
+      });
+    });
+  })
+</script>
+</body>
+</html>
